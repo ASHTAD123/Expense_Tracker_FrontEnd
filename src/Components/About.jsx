@@ -5,7 +5,8 @@ import bg from "../assets/bg.jpg";
 const About = () => {
   return (
    <div style={{
-
+   
+    
 backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
