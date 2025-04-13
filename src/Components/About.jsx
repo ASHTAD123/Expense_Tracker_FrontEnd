@@ -3,9 +3,13 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import Navigationbar from "../Components/Navbar";
 import bg from "../assets/bg.jpg";
 const About = () => {
+  
+  
+//test line
+
   return (
    <div style={{
-
+   
 backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
