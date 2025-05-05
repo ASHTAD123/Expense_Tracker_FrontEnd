@@ -3,10 +3,13 @@
   publish = "dist"
 
 [build.environment]
-  VITE_API_URL = "https://expense-tracker-backend-ym8i.onrender.com/expenseTracker"
+
+  VITE_API_URL = "https://expense-tracker-production-c416.up.railway.app/expenseTracker"
   SECRETS_SCAN_OMIT_KEYS = "VITE_API_URL"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
+  # VITE_API_URL = "https://expense-tracker-backend-ym8i.onrender.com/expenseTracker"
