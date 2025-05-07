@@ -12,4 +12,5 @@
   to = "/index.html"
   status = 200
 
-  # VITE_API_URL = "https://expense-tracker-backend-ym8i.onrender.com/expenseTracker"
+  # VITE_API_URL = "https://expense-tracker-backend-ym8i.onrender.com/expenseTracker" 
+  
